@@ -15,6 +15,8 @@
 		047792841F8CF73B00DB5D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047792831F8CF73B00DB5D85 /* main.m */; };
 		0477928E1F8CF73B00DB5D85 /* LOLHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477928D1F8CF73B00DB5D85 /* LOLHeroTests.m */; };
 		047792991F8CF73B00DB5D85 /* LOLHeroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047792981F8CF73B00DB5D85 /* LOLHeroUITests.m */; };
+		047792A71F8CF7A300DB5D85 /* herolist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047792A61F8CF7A300DB5D85 /* herolist.plist */; };
+		047792AA1F8CFA3600DB5D85 /* CLHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 047792A91F8CFA3600DB5D85 /* CLHero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		047792941F8CF73B00DB5D85 /* LOLHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOLHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047792981F8CF73B00DB5D85 /* LOLHeroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOLHeroUITests.m; sourceTree = "<group>"; };
 		0477929A1F8CF73B00DB5D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047792A61F8CF7A300DB5D85 /* herolist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = herolist.plist; sourceTree = "<group>"; };
+		047792A81F8CFA3600DB5D85 /* CLHero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLHero.h; sourceTree = "<group>"; };
+		047792A91F8CFA3600DB5D85 /* CLHero.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLHero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				0477927F1F8CF73B00DB5D85 /* LaunchScreen.storyboard */,
 				047792821F8CF73B00DB5D85 /* Info.plist */,
 				047792831F8CF73B00DB5D85 /* main.m */,
+				047792A61F8CF7A300DB5D85 /* herolist.plist */,
+				047792A81F8CFA3600DB5D85 /* CLHero.h */,
+				047792A91F8CFA3600DB5D85 /* CLHero.m */,
 			);
 			path = LOLHero;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			files = (
 				047792811F8CF73B00DB5D85 /* LaunchScreen.storyboard in Resources */,
 				0477927E1F8CF73B00DB5D85 /* Assets.xcassets in Resources */,
+				047792A71F8CF7A300DB5D85 /* herolist.plist in Resources */,
 				0477927C1F8CF73B00DB5D85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047792AA1F8CFA3600DB5D85 /* CLHero.m in Sources */,
 				047792791F8CF73B00DB5D85 /* ViewController.m in Sources */,
 				047792841F8CF73B00DB5D85 /* main.m in Sources */,
 				047792761F8CF73B00DB5D85 /* AppDelegate.m in Sources */,
